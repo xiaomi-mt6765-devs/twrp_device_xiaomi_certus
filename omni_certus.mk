@@ -16,10 +16,3 @@ PRODUCT_NAME := omni_certus
 PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := Redmi 6/6A
 PRODUCT_MANUFACTURER := xiaomi
-
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="cactus-user 9 PPR1.180610.011 V12.0.2.0.PCBCNXM release-keys"
-
-BUILD_FINGERPRINT := xiaomi/cactus/cactus:9/PPR1.180610.011/V12.0.2.0.PCBCNXM:user/release-keys
