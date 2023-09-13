@@ -11,13 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from cactus device
-$(call inherit-product, device/xiaomi/cactus/device.mk)
+# Inherit from Certus device
+$(call inherit-product, device/xiaomi/certus/device.mk)
 
-PRODUCT_DEVICE := cactus
-PRODUCT_NAME := omni_cactus
+PRODUCT_DEVICE := certus
+PRODUCT_NAME := omni_certus
 PRODUCT_BRAND := xiaomi
-PRODUCT_MODEL := Redmi 6A
+PRODUCT_MODEL := Redmi 6/6A
 PRODUCT_MANUFACTURER := xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

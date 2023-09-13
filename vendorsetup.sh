@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_cactus-user
-add_lunch_combo omni_cactus-userdebug
-add_lunch_combo omni_cactus-eng
+add_lunch_combo omni_certus-user
+add_lunch_combo omni_certus-userdebug
+add_lunch_combo omni_certus-eng

@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/cactus
+DEVICE_PATH := device/xiaomi/certus
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -24,7 +24,7 @@ TARGET_USES_64_BIT_BINDER := true
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := cactus
+TARGET_BOOTLOADER_BOARD_NAME := mt6765
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -42,8 +42,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := cactus_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/cactus
+TARGET_KERNEL_CONFIG := certus_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6765
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

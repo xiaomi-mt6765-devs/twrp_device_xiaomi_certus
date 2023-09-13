@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_cactus.mk
+    $(LOCAL_DIR)/omni_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_cactus-user \
-    omni_cactus-userdebug \
-    omni_cactus-eng
+    omni_certus-user \
+    omni_certus-userdebug \
+    omni_certus-eng
