@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_certus-user
-add_lunch_combo omni_certus-userdebug
-add_lunch_combo omni_certus-eng
+add_lunch_combo twrp_certus-user
+add_lunch_combo twrp_certus-userdebug
+add_lunch_combo twrp_certus-eng

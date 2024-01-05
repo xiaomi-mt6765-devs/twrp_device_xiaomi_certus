@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_certus.mk
+    $(LOCAL_DIR)/twrp_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_certus-user \
-    omni_certus-userdebug \
-    omni_certus-eng
+    twrp_certus-user \
+    twrp_certus-userdebug \
+    twrp_certus-eng
